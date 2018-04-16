@@ -1,0 +1,90 @@
+SPESIFIKASI KEBUTUHAN PERANGKAT LUNAK
+“Sistem Informasi Gili Labak Transport”
+1.	Pendahuluan
+1.1	Tujuan Penulisan Dokumen
+Dokumen ini ditulis untuk tujuan menjabarkan spesifikasi dari perangkat lunak kami yaitu Sistem Informasi Gili Labak Transport. Penjabaran spesfikasi kebutuhan lunak ini meliputi deskripsi umum perangkat lunak dan deskripsi kebutuhan perangkat lunak. Dalam membangun perangkat lunak tersebut, tentunya spesifikasi kebutuhan untuk perangkat lunak tersebut dibutuhkan, khususnya oleh para pengembang dan pembangun perangkat lunak tersbut.
+1.2	Lingkup Masalah
+Gili Labak Transport adalah sebuah sistem informasi yang berbasis web dan aplikasi yang digunakan.
+1.3	Definisi, Istilah dan Singkatan
+Berikut adalah definisi, istilah serta singkatan yang akan digunakan dalam penjabaran dokumen perangkat lunat ini:
+DFD : Data FLow Diagram. Diagram yang menggambarkan aliran data pada perangkat lunak.
+ERD : Entity Realation Diagram. Diagram yang menggambarkan entitas suatu objek beserta relasinya.
+Interfaces : Tampilan antarmuka antara perangkat lunak dengan pengguna (user)
+Data store : Tempat penyimpanan data 
+API : Application Programming Interface 
+1.4	Aturan Penomeran
+1.5	Referensi
+1.6	Deskripsi umum Dokumen (Ikhtisar)
+Dokumen Spesifikasi Kebutuhan Perangkat Lunak (SKPL) ini berisikan meliputi: pendahuluan, deskripsi umum perangkat lunak, dan deskripsi kebutuhan perangkat lunak.
+Bagian Pendahuluan berisi tujuan penulisan mengenai tujuan dan alasan kenapa dokumen ini dibuat, lingkup permasalahan yang berisi ringkasan deskripsi dari perangkat lunak yang akan dibuat, definisi, istilah dan singkatan yang digunakan dalam dokumen spesifikasi kebutuhan ini, atau penomoran yang digunakan dalam penulisan dokumen spesifikasi kebutuhan ini. Bagian deskripsi umum kebutuhan perangkat lunak berisi deskripsi umum dari sistem perangkat lunak yang akan dibuat, karakteristik pengguna perangkat lunak ini dan batasan pembuatan perangkat lunak itu sendiri dan lingkungan operasi yang diperuntukan bagi perangkat lunak yang akan dibuat.
+2.	Deskripsi Umum Perangkat Lunak
+2.1	Deskripsi Umum Sistem
+Gili Labak Transport merupakan sistem informasi yang berbasis web dan aplikasi yang digunakan untuk .
+2.2	Karakteristik Pengguna
+(Kategori Pengguna – Tugas – Hak akses ke aplikais)
+a.	Admin – 
+b.	User – 
+c.	Driver – 
+2.3	Batasan
+Dalam pembuatan perangkat lunak ini, ada beberapa batasan yang digunakan. Batasan-batasan tersebut antara lain :
+
+2.4	Lingkungan Operasi
+	Aplikasi Client server ini akan berfungsi dengan spesifikasi :
+	Server :
+	Komputer dengan spesifikasi hardware minimal sebagai berikut :
+	•	Processor Intel Pentium 4 3 Ghz
+	•	Motherboard support internet connection
+	•	2 GB RAM
+	•	500 GB Hard Disk Drive utama
+	•	500 GB Hard Disk Drive backup
+	•	VGA Card 256 MB
+	•	NIC FastEthernet atau Gigabit Ethernet
+	•	Mouse
+	•	Keyboard
+	•	Monitor
+	•	Power Supply
+	Komputer yang minimal telah terinstall software sebagai berikut :
+	•	Browser Google Chrome/Mozilla Firefox/Opera mini
+	•	PDF reader
+	•	Word Processor
+	•	Apache HTTP Server
+	•	Mail Server
+	DBMS (Database Management System) minimal MySQL 5.0.20 ke atas 
+	Koneksi internet dengan bandwidth minimal 1 Mbps 
+	OS minimal Windows 2003 Server atau Ubuntu Server
+	
+Client :
+	Smartphone dengan spesifikasi hardware minimal sebagai berikut :
+•	android minimal versi API 16 (Ice Cream Sandwich)
+•	RAM minimal 512MB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3.	Deskripsi Kebutuhan
+3.1	Kebutuhan Antarmuka Eksternal
+Sistem Informasi Gili Labak Transport membutuhkan fasilitas-fasilitas antar muka eksternal sebagai berikut :
+3.1.1	Antarmuka pemakai
+3.1.2	Antarmuka Perangkat Keras
+3.1.3	Antarmuka Perangkat Lunak
+3.1.4	Antarmuka Komunikasi
+3.2	Kebutuhan Fungsional 
+3.3	Kebutuhan Data
+3.4	Kebutuhan Non Fungsional
+3.5	Batasan Perancangan
+3.6	Kerunutan (traceability)
+3.7	Kebutuhan Fungsional
+3.7.1	Kebutuhan Fungsional
+3.7.2	Kebutuhan Non Fungsional
