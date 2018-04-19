@@ -120,7 +120,18 @@ SPESIFIKASI KEBUTUHAN PERANGKAT LUNAK
 3.	Deskripsi Kebutuhan
 	3.1	Kebutuhan Antarmuka Eksternal
 		Sistem Informasi Gili Labak Transport membutuhkan fasilitas-fasilitas antar muka eksternal sebagai berikut :
-		3.1.1	Antarmuka pemakai
+		3.1.1	Antarmuka pemakai via web untuk pengunjung
+			User interface yang digunakan untuk mengoperasikan aplikasi Transportasi Gili Labak antara lain :
+			- Tampilan awal web 
+			- Tampilan form registrasi
+			- Tampilan login
+			- Tampilan edit profil
+			- Tampilan pemesanan
+			- Tampilan konfirmasi
+			Alat-alat yang mendukung antarmuka pemakai adalah sebagai berikut :
+			- Monitor
+			- Mouse/Mousepad
+			- Keyboard
 		3.1.2	Antarmuka Perangkat Keras
 		3.1.3	Antarmuka Perangkat Lunak
 		3.1.4	Antarmuka Komunikasi
