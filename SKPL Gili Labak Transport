@@ -132,9 +132,30 @@ SPESIFIKASI KEBUTUHAN PERANGKAT LUNAK
 			- Monitor
 			- Mouse/Mousepad
 			- Keyboard
+			Antarmuka pemakai via mobile untuk pemilik kapal
+			User interface yang digunakan untuk mengoperasikan aplikasi Transportasi Gili Labak antara lain :
+			- Tampilan awal mobile apps 
+			- Tampilan login
+			- Tampilan edit profil
+			- Tampilan notifikasi pemesanan
+			- Tampilan konfirmasi transaksi pembayaran
+                        - Tampilan data pemesanan
+			Alat-alat yang mendukung antarmuka pemakai adalah sebagai berikut :
+			- Mobile phone (gadget)
 		3.1.2	Antarmuka Perangkat Keras
+			Interface perangkat keras yang digunakan untuk mengoperasikan perangkat lunak antara lain :
+                        - NIC FastEthernet atau Gigabit Ethernet
+                        - Label LAN UTP RJ-45
+                        - ASDL Modem
+                        - Kabel telepon
 		3.1.3	Antarmuka Perangkat Lunak
+			Interface perangkat lunak yang digunakan oleh perangkat lunak ini adalah sebagai berikut :
+                        - Website Dinas Kebudayaan dan Pariwisata Kabupaten Sumenep
 		3.1.4	Antarmuka Komunikasi
+			Interface komunikasi yang digunakan untuk mengoperasikan perangkat lunak antara lain :
+                        - Kabel LAN UTP RJ-45
+                        - ASDL Modem
+                        - Kabel telepon
 	3.2	Kebutuhan Fungsional
 		3.2.1 Terdapat fitur booking dan scedulling untuk pesan keberangkatan secara online.
 		3.2.2 Sistem scedulling bekerja secara otomatis bergeser jika kuota dan pembayaran telah terpenuhi.
@@ -146,7 +167,12 @@ SPESIFIKASI KEBUTUHAN PERANGKAT LUNAK
 		3.4.2 Sistem terhubung dengan WebSite pemerintah.
 		3.4.3 Sistem memiliki tiga Bahasa (Madura, Indonesia, dan English).
 	3.5	Batasan Perancangan
+		Batasan perancangan yang dipakai dalam pengembangan perangkat lunak Transportasi Gili Labak antara lain :
+                - Tampilan web yang dibuat dengan menggunakan photoshop, coreldraw dan adobe illustration
+                - Text editor yang digunakan adalah notepad++
+                - Bahasa pemrograman yang digunakan adalah java dan html5.
 	3.6	Kerunutan (traceability)
+		Suatu perangkat lunak yang baik memiliki kebutuhan fungsional yang dapat dirunut model analisisnya.
 	3.7	Kebutuhan Fungsional
 		3.7.1	Kebutuhan Fungsional
 		3.7.2	Kebutuhan Non Fungsional
