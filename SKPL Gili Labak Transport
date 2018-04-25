@@ -3,18 +3,21 @@ SPESIFIKASI KEBUTUHAN PERANGKAT LUNAK
 
 1.	Pendahuluan
 	1.1	Tujuan Penulisan Dokumen
-			Dokumen ini ditulis untuk tujuan menjabarkan spesifikasi dari perangkat lunak kami yaitu Sistem Informasi Gili Labak 
-		Transport. Penjabaran spesfikasi kebutuhan lunak ini meliputi deskripsi umum perangkat lunak dan deskripsi kebutuhan 
-		perangkat lunak. Dalam membangun perangkat lunak tersebut, tentunya spesifikasi kebutuhan untuk perangkat lunak tersebut 
-		dibutuhkan, khususnya oleh para pengembang dan pembangun perangkat lunak tersbut.
+			Dokumen ini ditulis untuk tujuan menjabarkan spesifikasi dari perangkat lunak kami yaitu Sistem Informasi Gili 
+		Labak Transport. Penjabaran spesfikasi kebutuhan lunak ini meliputi deskripsi umum perangkat lunak dan deskripsi 
+		kebutuhan perangkat lunak. Dalam membangun perangkat lunak tersebut, tentunya spesifikasi kebutuhan untuk perangkat lunak
+		tersebut dibutuhkan, khususnya oleh para pengembang dan pembangun perangkat lunak tersbut.
 	1.2	Lingkup Masalah
 			Gili Labak Transport adalah sebuah sistem informasi yang berbasis web dan aplikasi yang digunakan sebagai sistem 
 		pendistribusian untuk memesan kapal penyebrangan laut menuju pantai Gili Labak. Pada sistem tersebut memiliki dua akses 
-		yaitu untuk wisatawan dengan website. Dan untuk owner kapal menggunakan aplikasi mobile. Pengguna aplikasi mobile dapat 
-		melakukan sign in, melihat daftar penumpang, memilih produk, mengisi jumlah produk yang diinginkan, dan melakukan 
-		pembayaran. Sistem ini dikelola oleh seorang admin yang bertugas memperbaharui jadwal pemberangkatan kapal, 
-		data wisatawan, dan data pemesanan. Data-data yang dikelola admin dipertanggung jawabkan kepada Dinas Kebudayaan 
-		dan Pariwisata Kabupaten Sumenep untuk dikelola untuk mengetahui jumlah wisatawan yang berkunjung ke Gili Labak.
+		yaitu untuk wisatawan dengan website. Dan untuk owner kapal menggunakan aplikasi mobile. Pengguna website dapat melakukan 
+		registrasi dan sign in, melihat daftar penumpang, memilih kapal, mengisi jumlah pesanan kapal atau kursi yang diinginkan, 
+		dan melakukan pembayaran. Sedangkan pada aplikasi mobile yang digunakan oleh owner dapat melakukan sign in, melihat 
+		jumlah kursi atau kapal yang dipesan jika terdapat pesanan, dapat memverifikasi pembayaran yang dilakukan oleh wisatawan
+		dan yang terakhir yaitu dapat melihat data penumpang yang telah melakukan proses pembayaran. Sistem ini dikelola oleh 
+		seorang admin yang bertugas memperbaharui jadwal pemberangkatan kapal, data wisatawan, dan data pemesanan. Data-data yang
+		dikelola admin dipertanggung jawabkan kepada Dinas Kebudayaan dan Pariwisata Kabupaten Sumenep untuk dikelola untuk 
+		mengetahui jumlah wisatawan yang berkunjung ke Gili Labak.
 	1.3	Definisi, Istilah dan Singkatan
 			Berikut adalah definisi, istilah serta singkatan yang akan digunakan dalam penjabaran dokumen perangkat lunak 
 		ini:
@@ -69,13 +72,20 @@ SPESIFIKASI KEBUTUHAN PERANGKAT LUNAK
 
 2.	Deskripsi Umum Perangkat Lunak
 	2.1	Deskripsi Umum Sistem
-			Gili Labak Transport merupakan sistem informasi yang berbasis web dan aplikasi yang digunakan sebagai sistem 
-		pendistribusian untuk memesan kapal penyebrangan laut menuju pantai Gili Labak. Pada sistem tersebut memiliki dua akses 
-		yaitu untuk wisatawan dengan website. Dan untuk owner kapal menggunakan aplikasi mobile. Pengguna aplikasi mobile dapat 
-		melakukan sign in, melihat daftar penumpang, memilih produk, mengisi jumlah produk yang diinginkan, dan melakukan 
-		pembayaran. Sistem ini dikelola oleh seorang admin yang bertugas memperbaharui jadwal pemberangkatan kapal, 
-		data wisatawan, dan data pemesanan. Data-data yang dikelola admin dipertanggung jawabkan kepada Dinas Kebudayaan 
-		dan Pariwisata Kabupaten Sumenep untuk dikelola untuk mengetahui jumlah wisatawan yang berkunjung ke Gili Labak.
+			Gili Labak Transport merupakan sistem informasi yang bergerak dibidang jasa. Sistem informasi yang berbasis web 
+		dan aplikasi ini digunakan sebagai sistem pendistribusian untuk memesan kapal penyebrangan laut menuju pantai Gili Labak. 
+		Pada sistem yang memiliki dua tampilan tersebut nantinya akan digunakan oleh wisatawan yang akan memesan kapal dan owner 
+		kapal yang menyediakan jasa kapal untuk	penyebrangan. Pada halaman tersebut berisi tentang informasi deskripsi pantai 
+		Gili Labak beserta form registrasi dan login yang akan mengarahkan kita pada sistem informasi ini. Proses pemesanan 
+		oleh wisatawan dilakukan setelah melakukan registrasi pada halaman website yang terhubung dengan halaman website 
+		Dinas Kebudayaan dan Priwisata Kabupaten Sumenep. Pengguna website dapat melakukan registrasi dan sign in, melihat daftar
+		penumpang, memilih kapal, mengisi jumlah pesanan kapal atau kursi yang diinginkan, dan melakukan pembayaran. Sedangkan 
+		pada aplikasi mobile yang digunakan oleh owner dapat melakukan sign in, melihat jumlah kursi atau kapal yang dipesan jika
+		terdapat pesanan, dapat memverifikasi pembayaran yang dilakukan oleh wisatawan dan yang terakhir yaitu dapat melihat data
+		penumpang yang telah melakukan proses pembayaran. Sistem ini dikelola oleh seorang admin yang bertugas memperbaharui 
+		jadwal pemberangkatan kapal, data wisatawan, dan data pemesanan. Data-data yang dikelola admin dipertanggung jawabkan 
+		kepada Dinas Kebudayaan dan Pariwisata Kabupaten Sumenep untuk dikelola untuk mengetahui jumlah wisatawan yang berkunjung 
+		ke pantai Gili Labak.
 	2.2	Karakteristik Pengguna
 		(Kategori Pengguna – Tugas – Hak akses ke aplikais)
 		a	Driver – Melakukan konnfirmasi pembayaran – sign in sebagai owner
