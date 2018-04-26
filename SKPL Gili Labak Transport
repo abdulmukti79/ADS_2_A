@@ -3,29 +3,29 @@ SPESIFIKASI KEBUTUHAN PERANGKAT LUNAK
 
 1.	Pendahuluan
 	1.1	Tujuan Penulisan Dokumen
-			Dokumen ini ditulis untuk tujuan menjabarkan spesifikasi dari perangkat lunak kami yaitu Sistem Informasi Gili 
+			Dokumen ini ditulis bertujuan untuk menjabarkan spesifikasi dari perangkat lunak kami yaitu Sistem Informasi Gili 
 		Labak Transport. Penjabaran spesfikasi kebutuhan lunak ini meliputi deskripsi umum perangkat lunak dan deskripsi 
 		kebutuhan perangkat lunak. Dalam membangun perangkat lunak tersebut, tentunya spesifikasi kebutuhan untuk perangkat lunak
 		tersebut dibutuhkan, khususnya oleh para pengembang dan pembangun perangkat lunak tersbut.
 	1.2	Lingkup Masalah
-			Gili Labak Transport adalah sebuah sistem informasi yang berbasis web dan aplikasi yang digunakan sebagai sistem 
-		pendistribusian untuk memesan kapal penyebrangan laut menuju pantai Gili Labak. Pada sistem tersebut memiliki dua akses 
-		yaitu untuk wisatawan dengan website. Dan untuk owner kapal menggunakan aplikasi mobile. Pengguna website dapat melakukan 
+			Gili Labak Transport merupakan sebuah sistem informasi yang berbasis web dan aplikasi yang digunakan sebagai sistem 
+		pendistribusian dan untuk memesan kapal penyebrangan laut menuju pantai Gili Labak. Pada sistem tersebut memiliki dua akses 
+		yaitu untuk aplikasi dengan website. Dan untuk owner kapal menggunakan aplikasi mobile. Pengguna website dapat melakukan 
 		registrasi dan sign in, melihat daftar penumpang, memilih kapal, mengisi jumlah pesanan kapal atau kursi yang diinginkan, 
-		dan melakukan pembayaran. Sedangkan pada aplikasi mobile yang digunakan oleh owner dapat melakukan sign in, melihat 
+		dan melakukan pembayaran secara online. Sedangkan pada aplikasi mobile yang digunakan oleh owner dapat melakukan sign in, melihat 
 		jumlah kursi atau kapal yang dipesan jika terdapat pesanan, dapat memverifikasi pembayaran yang dilakukan oleh wisatawan
 		dan yang terakhir yaitu dapat melihat data penumpang yang telah melakukan proses pembayaran. Sistem ini dikelola oleh 
-		seorang admin yang bertugas memperbaharui jadwal pemberangkatan kapal, data wisatawan, dan data pemesanan. Data-data yang
-		dikelola admin dipertanggung jawabkan kepada Dinas Kebudayaan dan Pariwisata Kabupaten Sumenep untuk dikelola untuk 
-		mengetahui jumlah wisatawan yang berkunjung ke Gili Labak.
+		seorang admin yang bertugas memperbaharui jadwal pemberangkatan kapal, data wisatawan, dan data pemesanan kapal. Data-data yang
+		dikelola admin dan dipertanggung jawabkan kepada Dinas Kebudayaan dan Pariwisata Kabupaten Sumenep untuk dikelola dan 
+		mengetahui jumlah wisatawan yang berkunjung ke Gili Labak pada setiap periode.
 	1.3	Definisi, Istilah dan Singkatan
 			Berikut adalah definisi, istilah serta singkatan yang akan digunakan dalam penjabaran dokumen perangkat lunak 
 		ini:
 		a	DFD : Data FLow Diagram. Diagram yang menggambarkan aliran data pada perangkat lunak.
 		b	ERD : Entity Realation Diagram. Diagram yang menggambarkan entitas suatu objek beserta relasinya.
-		c	Interfaces : Tampilan antarmuka antara perangkat lunak dengan pengguna (user)
-		d	Data store : Tempat penyimpanan data 
-		e	API : Application Programming Interface 
+		c	Interfaces : Tampilan antarmuka antara perangkat lunak dengan pengguna (user).
+		d	Data store : Tempat penyimpanan data.
+		e	API : Application Programming Interface. 
 	1.4	Aturan Penomeran
 		Nama-ID				Aturan Penamaan			Deskripsi
 		- Kebutuhan Fungsional		- SRS-NF-IN/PR/OUT-xxx		- SRS adalah System Requirement Summary,
@@ -48,7 +48,7 @@ SPESIFIKASI KEBUTUHAN PERANGKAT LUNAK
 		1. IEEE. 1998. IEEE Recommended Practice for Software Requirement Specification. New York : IEEE 
 		2. Pressman, Roger S. 2001. Software engineering: a practitioner’s approach 5th ed. New York : McGraw-Hill Companies, Inc.
 	1.6	Deskripsi umum Dokumen (Ikhtisar)
-			Dokumen Spesifikasi Kebutuhan Perangkat Lunak (SKPL) ini berisikan meliputi: pendahuluan, deskripsi umum 
+			Dokumen Spesifikasi Kebutuhan Perangkat Lunak (SKPL) ini berisikan: pendahuluan, deskripsi umum 
 		perangkat lunak, dan deskripsi kebutuhan perangkat lunak. 
 			Bagian Pendahuluan berisi tujuan penulisan mengenai tujuan dan alasan kenapa dokumen ini dibuat, lingkup 
 		permasalahan yang berisi ringkasan deskripsi dari perangkat lunak yang akan dibuat, definisi, istilah dan singkatan 
@@ -76,10 +76,10 @@ SPESIFIKASI KEBUTUHAN PERANGKAT LUNAK
 		dan aplikasi ini digunakan sebagai sistem pendistribusian untuk memesan kapal penyebrangan laut menuju pantai Gili Labak. 
 		Pada sistem yang memiliki dua tampilan tersebut nantinya akan digunakan oleh wisatawan yang akan memesan kapal dan owner 
 		kapal yang menyediakan jasa kapal untuk	penyebrangan. Pada halaman tersebut berisi tentang informasi deskripsi pantai 
-		Gili Labak beserta form registrasi dan login yang akan mengarahkan kita pada sistem informasi ini. Proses pemesanan 
-		oleh wisatawan dilakukan setelah melakukan registrasi pada halaman website yang terhubung dengan halaman website 
+		Gili Labak beserta form registrasi dan login yang akan mengarahkan kita pada sistem informasi ini. Proses pemesanan kapal
+		oleh wisatawan dilakukan setelah melakukan registrasi pada halaman aplikasi yang terhubung dengan halaman website 
 		Dinas Kebudayaan dan Priwisata Kabupaten Sumenep. Pengguna website dapat melakukan registrasi dan sign in, melihat daftar
-		penumpang, memilih kapal, mengisi jumlah pesanan kapal atau kursi yang diinginkan, dan melakukan pembayaran. Sedangkan 
+		penumpang, memilih kapal, mengisi jumlah pesanan kapal atau kursi yang diinginkan, dan melakukan pembayaran secara online. Sedangkan 
 		pada aplikasi mobile yang digunakan oleh owner dapat melakukan sign in, melihat jumlah kursi atau kapal yang dipesan jika
 		terdapat pesanan, dapat memverifikasi pembayaran yang dilakukan oleh wisatawan dan yang terakhir yaitu dapat melihat data
 		penumpang yang telah melakukan proses pembayaran. Sistem ini dikelola oleh seorang admin yang bertugas memperbaharui 
