@@ -1,24 +1,18 @@
-Analisis dan Desain Sistem
-Kelompok	: 2 (dua)
-Anggota	: 
-1.	Abdul Mukti
-2.	Aditya Sofyan Maulana
-3.	Dian Candra Lestari
-
 Judul	: Sistem Distribusi Transportasi Laut di GILI LABAK
-No.	Elemen	Uraian
+
 1.	Project Sponsor	
-    Dinas Pariwisata dan Kebudayaan kabupaten Suenep.
+    Dinas Pariwisata dan Kebudayaan kabupaten Sumenep.
+    Owner Transportasi Laut (Kapal) di Gili labak 
 2.	Bussines Needs	
     a)	Memudahkan pendataan Pengunjung.
-    b)	Meningkatkan pengakses WebSite pemerintah.
+    b)	Meningkatkan pengunjung dan pengakses WebSite pemerintah.
     c)	Pemerataan harga Transportasi
 3.	Bussines Requirements	
     a)	Identifikasi akun Transportasi
     b)	Pembayaran terekap dan via ATM-Banking.
 4.	Bussines Valve	
     a)	Pemerataan pendapatan.
-    b)	Harga tervalidasi berdasarkan level Transportasi.
+    b)	Harga tervalidasi berdasarkan level Transportasi dan kuota per-orang-an.
     c)	Penjadwalan keberangkatan termonitor.
 5.	Spesial Issue	
     a)	WEB.
