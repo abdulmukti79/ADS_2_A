@@ -1,18 +1,17 @@
-Analisis dan Desain Sistem
-Kelompok	: 2 (dua)
-Anggota	: 
-1.	Abdul Mukti
-2.	Aditya Sofyan Maulana
-3.	Dian Candra Lestari
-
 Judul	: Sistem Distribusi Transportasi Laut
+
 A.	Kebutuhan Fungsional
--	Terdapat fitur booking dan scedulling untuk pesan keberangkatan secara online.
+- Terdapat fitur booking dan scedulling untuk pesan keberangkatan secara online.
 -	Sistem scedulling bekerja secara otomatis bergeser jika kuota dan pembayaran telah terpenuhi.
--	Harga pesanan kapal tersedia pada halaman WB.
+- Terdapat dua ketegori untuk pemesanan kapal :
+  1. Keberangkatan kapal berdasarkan harga per kapal
+  2. Keberangkatan kapal berdasarkan kapasitas kapal terpenuhi
+-	Harga pesanan kapal tersedia pada halaman WEB.
 -	Jadwal keberangkatan di sediakan perhari.
 
 B.	Kebutuhan Non Fungsional
 -	Tersedia dalam bentuk web dan mobile aplikasi.
+  1. Aplikasi mobile diperuntukkkan untuk owner kapal
+  2. Website diperuntukkan untuk visitor yang ingin melakukan perjalanan ke Gili labak
 -	Sistem terhubung dengan WebSite pemerintah.
 -	Sistem memiliki tiga Bahasa (Madura, Indonesia, dan English).
