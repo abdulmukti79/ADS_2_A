@@ -1,34 +1,39 @@
 Use Case Description
 •	Pre-Condition
-1.	Terhubung  dengan akses internet
-2.	Bagi visitor : Masuk/mengakses via web
-3.	Bagi owner : Masuk/mengakses via aplikasi
-4.	Visitor dan Owner harus registrasi terlebih dahulu untuk mendapatkan akun
-5.	Login untuk masuk ke halaman utama
-6.	Bagi visitor (booking) : Melihat dan memilih informasi transportasi
-7.	Validasi visitor dan owner untuk keberangkatan maksimal H – 3 
+  1.	Terhubung  dengan akses internet
+  2.	Bagi visitor : Masuk/mengakses via web
+  3.	Bagi owner : Masuk/mengakses via aplikasi
+  4.	Visitor dan Owner harus registrasi terlebih dahulu untuk mendapatkan akun
+  5.	Login untuk masuk ke halaman utama
+  6.	Bagi visitor (booking) : Melihat dan memilih informasi transportasi
+  7.	Validasi visitor dan owner untuk keberangkatan maksimal H – 3 
+  
 •	Normal Course
 -	Registrasi
-Mengisi form registrasi : 
-1.	Masukkan foto profil
-2.	Masukkan nama
-3.	Masukkan no.telp
-4.	Masukkan akun bank (owner)
-5.	Masukkan username
-6.	Masukkan password
+  Mengisi form registrasi : 
+  1.	Masukkan foto profil
+  2.	Masukkan nama
+  3.	Masukkan no.telp
+  4.	Masukkan akun bank (owner)
+  5.	Masukkan username
+  6.	Masukkan password
 -	Login
-1.	Mengisi username
-2.	Mengisi password
+  1.	Mengisi username
+  2.	Mengisi password
 -	Booking
-1.	Memilih jadwal
-2.	Konfirmasi pemesanan
-3.	Upload bukti transaksi pembayaran
+  1.	Memilih jadwal
+  2.	Konfirmasi pemesanan
+  3.	Upload bukti transaksi pembayaran
+  
 •	Post-Condition
-1.	Visitor  Notifikasi detail transportasi
-2.	Owner  Notifikasi booking
-3.	Admin  Validasi
+  1.	Visitor  Notifikasi detail transportasi
+  2.	Owner  Notifikasi booking
+  3.	Admin  Validasi
+  
 •	Exception 
-Otomatis cancel jika tidak memenuhi kuota pada H – 3 pembayaran
+  Otomatis cancel jika tidak memenuhi kuota pada H – 3 pembayaran
+  Otomatis cancel jika tidak melakukan pembayaran dan penyertakan bukti transaksi pembayaran 
+
 •	Trigger
-1.	Pemerataan pendapatan
-2.	Memperjelas pendataan pengunjung
+  1.	Pemerataan pendapatan
+  2.	Memperjelas pendataan pengunjung
