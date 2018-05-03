@@ -185,6 +185,20 @@ SPESIFIKASI KEBUTUHAN PERANGKAT LUNAK
 		Suatu perangkat lunak yang baik memiliki kebutuhan fungsional yang dapat dirunut model analisisnya.
 	3.7	Kebutuhan Fungsional
 		3.7.1	Kebutuhan Fungsional
+			3.7.1.1 Tersedia dalam bentuk web dan mobile aplikasi.
+				Untuk kebutuhan fungsional sistem informasi transportasi laut di Gili Labak, 
+				memiliki dua akses. Dimana untuk via web digunakan oleh visitor yang akan memesan 
+				kapal ketika akan pergi ke pulau. Website yang digunakan merupakan kerja sama dengan pihak 
+				Dinas Kebudayaan dan Pariwisata Kab Sumenep. Maka, ketika akan melakukan pemesanan, 
+				visitor masuk ke dalam link website Dinas Kebudayaan dan Pariwisata Kab Sumenep.
+				Kemudian, untuk via mobile di akses oleh pihak owner kapal. Yang digunakan untuk melihat 
+				data penumpang dan verifikasi pembayaran kapal yang telah dipesan.
+			3.7.1.2 Sistem terhubung dengan WebSite pemerintah.
+				Sistem yang terhubung dengan website pemerintah merupakan akses sistem untuk visitor 
+				yang akan melakukan pemesanan kapal. Sistem dimasukkan pada menu Visit >> Objek Wisata >> Alam >> Gili Labak.
+				Pada tampilannya terdapat  tombol Registrasi bagi visitor (pengunjung) yang belum memiliki akun. Dan form 
+				Login bagi visitor yang sudah memiliki akun untuk pemesanan transportasi (kapal)
+			3.7.1.3 Sistem memiliki tiga Bahasa (Madura, Indonesia, dan English).
 		3.7.2	Kebutuhan Non Fungsional
 
 
