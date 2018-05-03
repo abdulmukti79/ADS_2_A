@@ -31,9 +31,9 @@ Use Case Description
   3.	Admin  Validasi
   
 •	Exception 
-  Otomatis cancel jika tidak memenuhi kuota pada H – 3 pembayaran
+  Otomatis cancel jika tidak memenuhi kuota pada H – 3 pembayaran pemberangkatan
   Otomatis cancel jika tidak melakukan pembayaran dan penyertakan bukti transaksi pembayaran 
 
 •	Trigger
-  1.	Pemerataan pendapatan
+  1.	Pemerataan pendapatan pekerja
   2.	Memperjelas pendataan pengunjung
