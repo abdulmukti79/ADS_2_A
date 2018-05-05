@@ -190,6 +190,9 @@ SPESIFIKASI KEBUTUHAN PERANGKAT LUNAK
 			3.7.3 Harga pesanan kapal tersedian pada halama web
 			3.7.4 Jadwal keberangkatan di sediakan perhari.
 			3.7.5 Terdapat 2 kategori pesanan yaitu : pesan kursi dan pesan kapal
+			      Untuk kategori pesan kursi, visitor dapat melakukan join dengan penumpang lain selama kapasitas
+			      setiap kapal belum memenuhi batas maksimal. Sedangkan untuk pesan kapal, visitor membayar sesuai
+			      harga sewa kapal dimana harga sama dengan biaya penumpang maksium ditanggung oleh peyewa kapal tersebut.
 			3.7.6 Pada setiap kategori pesanan terdapat pilihan kapal yaitu : kapal kecil dan kapal besar.
 		3.7.2	Kebutuhan Non Fungsional
 			3.7.2.1 Tersedia dalam bentuk web dan mobile aplikasi.
